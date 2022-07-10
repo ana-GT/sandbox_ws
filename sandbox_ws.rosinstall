@@ -7,4 +7,5 @@
 - git: {local-name: tiago_robot,  uri: 'git@github.com:pal-robotics/tiago_robot.git', version: 'kinetic-devel'}
 - git: {local-name: tiago_moveit_config,  uri: 'git@github.com:pal-robotics/tiago_moveit_config.git', version: 'kinetic-devel'}
 - git: {local-name: tiago_description_calibration,  uri: 'git@github.com:pal-robotics/tiago_description_calibration.git', version: 'indigo-devel'}
+- git: {local-name: motoman,  uri: 'git@github.com:ros-industrial/motoman.git', version: 'kinetic-devel'}
 
