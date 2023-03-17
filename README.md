@@ -6,7 +6,8 @@ sandbox_ws
    ```
    git clone git@github.com:ana-gt/sandbox_ws
    cd sandbox_ws
-   source /opt/ros/noetic/setup.bash
+   git checkout ros2
+   source /opt/ros/galactic/setup.bash
    ```
    
 2. Install packages:
