@@ -5,7 +5,8 @@
 			"WORKSPACE": "${containerWorkspaceFolder}"
 		}
 	},
-	"remoteUser": "root",
+	// Launch container as a non-root user
+	"remoteUser": "${USER}",
 	"runArgs": [
 		"--name=sandbox_container",
 		"--network=host",
@@ -40,6 +41,6 @@
 		"yzhang.markdown-all-in-one",
 		"zachflower.uncrustify"
 	],
-	"workspaceMount": "source=${localWorkspaceFolder},target=/src/sandbox_ws/src,type=bind",
-	"workspaceFolder": "/src/sandbox_ws/src"
+	"workspaceMount": "source=${localWorkspaceFolder},target=/src/sandbox_ws,type=bind",
+	"workspaceFolder": "/src/sandbox_ws"
 }
