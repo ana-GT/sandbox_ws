@@ -8,7 +8,7 @@
 	// Launch container as a non-root user
 	"remoteUser": "root",
 	"runArgs": [
-		"--name=sandbox_container",
+		"--name=sandbox_rolling_container",
 		"--env=DISPLAY=:1",
 		"--env=QT_X11_NO_MITSHM=1",
 		"--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw",
